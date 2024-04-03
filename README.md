@@ -29,6 +29,10 @@ If you have suggestions for improvements, spot any bugs, or just want to chat ab
 
 This project is just the beginning of my journey in frontend development. Stay tuned for more projects as I continue to learn and grow in this exciting field!
 
+## Have a Look
+
+Click [here](https://hamzamalik22.github.io/fs-project1/) to see the deployed version of this project.
+
 ## Connect With Me
 
 You can find me on [LinkedIn](https://www.linkedin.com/in/hamzamalik22) to stay updated on my frontend series projects and other web development endeavors.
