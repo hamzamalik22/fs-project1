@@ -1,6 +1,12 @@
-# **Frontend Series : Project 1**
+<div style="text-align: center;">
+  <h1><strong>Frontend Series : Project 1</strong></h1>
+</div>
 
 Welcome to the Frontend Series Project 1 repository! Here, I'm diving into the world of frontend development, honing my skills in HTML, CSS, and particularly focusing on responsiveness. This project is just one step in my journey towards becoming a proficient web developer.
+
+## Preview
+
+[Click here to preview the deployed web application](https://hamzamalik22.github.io/fs-project1/)
 
 ## About This Project
 
@@ -28,10 +34,6 @@ If you have suggestions for improvements, spot any bugs, or just want to chat ab
 ## Next Steps
 
 This project is just the beginning of my journey in frontend development. Stay tuned for more projects as I continue to learn and grow in this exciting field!
-
-## Have a Look
-
-Click [here](https://hamzamalik22.github.io/fs-project1/) to see the deployed version of this project.
 
 ## Connect With Me
 
