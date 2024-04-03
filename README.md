@@ -1,4 +1,4 @@
-**Frontend Series : Project 1**
+## **Frontend Series : Project 1**
 
 Welcome to the Frontend Series Project 1 repository! Here, I'm diving into the world of frontend development, honing my skills in HTML, CSS, and particularly focusing on responsiveness. This project is just one step in my journey towards becoming a proficient web developer.
 
