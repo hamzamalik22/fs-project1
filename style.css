@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.dot {
+    height: 18px;
+    width: 18px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+nav{
+    /* background: crimson; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    width: 95%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+nav ul span{
+    color: grey;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.menu{
+    display: none;
+}
+
+.nav2{
+    /* background: royalblue; */
+    display: flex;
+    justify-content: flex-start;
+}
+.nav2 ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-left: 2em;
+    padding-top: 1em;
+    
+}
+
+.nav2 ul li{
+    font-size: 0.85rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.hero{
+    /* background: rgb(255, 211, 99); */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.hero::-webkit-scrollbar{
+    background: transparent;
+    height: 0.5em;
+}
+
+.hero::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 211, 99);
+}
+.part{
+    width: 65%;
+    flex-shrink: 0;
+}
+
+.hero__upper{
+    /* background: firebrick; */
+    width: 50%;
+    margin: auto;
+    padding-top: 3em;
+}
+
+.hero__upper h3{
+    display: inline-block;
+    padding-right: 3em;
+}
+
+.hero__upper p{
+    display: inline-block;
+}
+
+.hero__lower{
+    /* background: rgb(245, 85, 197); */
+    display: flex;
+    justify-content: center;
+}
+
+.hero__lower h1{
+    font-weight: 200;
+    font-size: 8em;
+
+}
+
+.frame{
+    background: ghostwhite;
+    display: flex;
+    overflow-x: auto;
+}
+
+.frame::-webkit-scrollbar{
+    display: none;
+}
+
+.frame img{
+    flex-shrink: 0;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+
+
+@media (max-width: 675px){
+nav ul li{
+    font-size: 0.75rem;
+}
+
+.nav2 ul{
+    gap: 30px;
+    padding-left: 1em;
+    
+}
+
+.nav2 ul li{
+    font-size: 0.8rem;
+}
+
+.hero__upper{
+    width: 90%;
+}
+
+.hero__lower h1{
+    font-size: 6.5em;
+}
+
+.frame{
+    background: ghostwhite;
+}
+
+.frame img{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+}
+
+@media (max-width: 585px){
+    .menu{
+        display: flex;
+    }
+    .menu i{
+        font-size: 2em;
+        padding-right: 1em;
+    }
+    
+    nav ul li{
+        display: none;
+    }
+    
+    .nav2{
+        display: none;
+    }
+
+    .hero__upper{
+        width: 95%;
+    }
+    
+    .hero__lower h1{
+        font-size: 5em;
+    }
+    
+    .frame img{
+        height: 35vh;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    }
+
+    @media (max-width: 465px){
+        .hero__upper{
+            width: 100%;
+        }
+        
+        .hero__lower h1{
+            font-size: 3.5em;
+            padding-left: 1em;
+        }
+        
+        .hero__upper h3{
+            display: inline-block;
+            padding-right: 1em;
+            padding-left: 1em;
+        }
+
+        .hero::-webkit-scrollbar{
+            height: 0.3em;
+        }
+
+        .frame img{
+            height: 32vh;
+        }
+        
+        }
